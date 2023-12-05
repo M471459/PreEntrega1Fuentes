@@ -16,7 +16,7 @@ function resultado(){
     console.log("promotores: "+promotores)
     console.log("detractores: "+promotores)
     let nps=promotores/n-detractores/n
-    console.log("NPS: "+nps)
+    console.log("NPS: "+(nps*100).toFixed(2)+"%")
 }
 
 resultado()
